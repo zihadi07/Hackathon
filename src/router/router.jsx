@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar/Navbar";
 import Layout from "../components/Layout/Layout";
 import About from "../pages/Home/About/About";
 import Courses from "../pages/Courses/Courses";
+import Output from "../testComponents/Output/Output.jsx";
+import EvaluationForm from "../testComponents/EvaluationForm/EvaluationForm.jsx";
 
 
 
@@ -14,7 +16,7 @@ export const router = createBrowserRouter([
         element: <Layout />,
         children: [
             {   path: "/",
-                element: <Home />
+                element: <Output />
             },
             {
                 path: "/courses",
@@ -22,7 +24,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/about",
-                element: <About />
+                element: <EvaluationForm />
             }
         ]
     }

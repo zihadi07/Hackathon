@@ -1,7 +1,4 @@
-import { faFacebook, faFacebookF, faInstagram, faInstagramSquare, faLinkedin, faLinkedinIn, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
-import { faX } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagramSquare, faLinkedinIn, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 
 const styles = {   
