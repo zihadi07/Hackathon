@@ -4,20 +4,22 @@ import Navbar from "../components/Navbar/Navbar";
 import Layout from "../components/Layout/Layout";
 import About from "../pages/About/About";
 import Courses from "../pages/Courses/Courses";
+import Output from "../testComponents/Output/Output.jsx";
+import EvaluationForm from "../testComponents/EvaluationForm/EvaluationForm.jsx";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
-      { path: "/", element: <Home /> },
+      { path: "/", element: <Output /> },
       {
         path: "/courses",
         element: <Courses />,
       },
       {
         path: "/about",
-        element: <About />,
+        element: <EvaluationForm />,
       },
     ],
   },
